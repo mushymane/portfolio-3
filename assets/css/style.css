@@ -1,0 +1,90 @@
+/*
+font-family: 'Cairo', sans-serif;
+font-family: 'Quicksand', sans-serif;
+*/
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300;400&family=Quicksand:wght@300;400&display=swap');
+
+body {
+    font-family: 'Quicksand', serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+.navbar {
+    background: rgba(0, 0, 0, 0.6) !important;
+    padding: 10px 0;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.2rem;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+    padding-left: 20px;
+}
+
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: rgb(51, 112, 161) !important;
+}
+
+#home {
+    position: relative;
+}
+
+.heading-text {
+    position: absolute;
+    top: 35%;
+    width: 100%;
+    max-width: 100%;
+
+}
+
+.heading-text h5 {
+    font-family: 'Cairo', serif;
+    font-size: 3em;
+    font-weight: 300;
+    color: white;
+}
+
+.heading-text h1 {
+    font-family: 'Cairo', serif;
+    font-size: 4em;
+    font-weight: 500;
+    color: white;
+}
+
+.heading-text p {
+    font-family: 'Cairo', serif;
+    font-size: 1em;
+    font-weight: bolder;
+    color: rgb(200, 200, 200);
+    text-transform: uppercase;
+    word-spacing: 5px;
+    letter-spacing: 3px;
+}
+
+/* Projects section */
+button a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: bold;
+    word-spacing: 3px;
+    letter-spacing: 3px;
+}
+
+button a:hover {
+    color: rgb(51, 112, 161);
+    text-decoration: none;
+}
+
+/* Projects section end*/
+
+/* Contact section */
+#contact a {
+    text-decoration: none;
+}
+/* Contact section end*/
